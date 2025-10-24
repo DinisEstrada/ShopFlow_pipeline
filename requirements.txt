@@ -1,2 +1,9 @@
 faker==28.0.0
 pandas==2.2.3
+
+# Database
+SQLAlchemy==2.0.22
+psycopg2-binary==2.9.9
+
+# AWS S3 integration
+boto3==1.28.0

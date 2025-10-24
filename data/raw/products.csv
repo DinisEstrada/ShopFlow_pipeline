@@ -1,0 +1,501 @@
+id,name,category,price,supplier
+1,Training Beauty,Electronics,17.38,Target
+2,Place Clothing,Clothing,74.07,Amazon
+3,Run Beauty,Beauty,446.63,Amazon
+4,Couple Sports,Books,20.73,Amazon
+5,Accept Clothing,Clothing,255.15,Amazon
+6,One Sports,Clothing,359.43,Nike
+7,Likely Sports,Books,114.12,IKEA
+8,Such Home & Kitchen,Toys,435.3,Adidas
+9,Former Toys,Clothing,350.58,Target
+10,Can Home & Kitchen,Clothing,111.58,Adidas
+11,Among Home & Kitchen,Electronics,50.91,Amazon
+12,Career Home & Kitchen,Toys,175.26,Target
+13,Paper Toys,Electronics,366.22,IKEA
+14,Design Electronics,Books,44.01,Target
+15,Read Toys,Beauty,311.17,Adidas
+16,Color Home & Kitchen,Sports,100.18,Amazon
+17,Begin Electronics,Beauty,117.81,Target
+18,Or Electronics,Toys,120.23,Amazon
+19,Establish Books,Home & Kitchen,229.44,Adidas
+20,Today Home & Kitchen,Clothing,188.24,BestBuy
+21,Some Beauty,Home & Kitchen,352.4,Nike
+22,Already Beauty,Electronics,306.52,BestBuy
+23,Become Sports,Beauty,126.18,Walmart
+24,Capital Books,Home & Kitchen,494.81,Nike
+25,Move Beauty,Sports,113.71,Target
+26,Fire Toys,Toys,389.12,BestBuy
+27,Himself Toys,Electronics,403.5,Walmart
+28,Off Home & Kitchen,Electronics,109.44,IKEA
+29,Congress Beauty,Home & Kitchen,110.25,Walmart
+30,Land Books,Beauty,232.13,Target
+31,You Clothing,Clothing,373.77,IKEA
+32,Really Home & Kitchen,Beauty,294.37,IKEA
+33,A Books,Home & Kitchen,113.56,BestBuy
+34,Energy Sports,Books,50.0,Amazon
+35,First Toys,Electronics,80.66,BestBuy
+36,Any Toys,Beauty,213.97,Amazon
+37,Young Books,Books,299.96,Walmart
+38,Young Sports,Home & Kitchen,485.68,Adidas
+39,Natural Electronics,Beauty,361.76,Nike
+40,West Sports,Toys,137.08,Nike
+41,Stay Home & Kitchen,Electronics,150.28,BestBuy
+42,Finally Books,Electronics,477.14,Nike
+43,Reason Home & Kitchen,Sports,382.17,IKEA
+44,None Electronics,Toys,314.52,Adidas
+45,Light Beauty,Sports,306.44,BestBuy
+46,Challenge Home & Kitchen,Toys,84.97,Adidas
+47,Part Sports,Electronics,301.48,Walmart
+48,Military Electronics,Electronics,464.9,Adidas
+49,Run Toys,Home & Kitchen,123.53,BestBuy
+50,Form Sports,Electronics,47.4,Walmart
+51,Necessary Toys,Electronics,489.1,IKEA
+52,Whether Toys,Clothing,68.55,Walmart
+53,He Sports,Clothing,136.2,Adidas
+54,Police Sports,Books,482.36,IKEA
+55,Nothing Toys,Beauty,346.48,Nike
+56,Mrs Home & Kitchen,Books,497.6,Nike
+57,Determine Home & Kitchen,Books,450.31,Walmart
+58,Rise Electronics,Clothing,116.23,Target
+59,Bit Electronics,Sports,279.19,IKEA
+60,Recognize Clothing,Electronics,40.14,Nike
+61,Ten Electronics,Clothing,38.36,Amazon
+62,Another Toys,Home & Kitchen,40.07,BestBuy
+63,Economic Home & Kitchen,Beauty,245.28,IKEA
+64,Although Clothing,Beauty,468.08,IKEA
+65,Cup Sports,Books,125.28,Walmart
+66,Change Toys,Books,99.25,Amazon
+67,Firm Beauty,Books,180.38,Walmart
+68,Total Books,Toys,365.89,Nike
+69,There Beauty,Beauty,53.72,Walmart
+70,Dinner Beauty,Home & Kitchen,401.29,Amazon
+71,Center Clothing,Clothing,99.15,Walmart
+72,Play Clothing,Books,95.83,Walmart
+73,Old Clothing,Toys,462.02,Walmart
+74,Direction Toys,Toys,428.7,Amazon
+75,Perhaps Electronics,Beauty,499.64,Adidas
+76,Her Electronics,Electronics,463.55,Adidas
+77,Fall Clothing,Clothing,206.17,Walmart
+78,Career Clothing,Toys,203.51,Amazon
+79,Shoulder Clothing,Books,6.07,Walmart
+80,Prevent Home & Kitchen,Toys,393.64,Target
+81,Knowledge Books,Beauty,478.87,Adidas
+82,Bad Sports,Beauty,360.61,BestBuy
+83,Oil Clothing,Home & Kitchen,112.76,Amazon
+84,Especially Sports,Beauty,273.39,Nike
+85,Ever Home & Kitchen,Electronics,29.82,Walmart
+86,I Sports,Toys,267.91,Amazon
+87,Rate Sports,Electronics,426.41,Amazon
+88,Well Sports,Electronics,339.23,BestBuy
+89,Common Books,Electronics,471.09,IKEA
+90,Instead Clothing,Sports,299.29,IKEA
+91,Loss Electronics,Books,330.4,IKEA
+92,Because Sports,Home & Kitchen,467.68,BestBuy
+93,You Beauty,Beauty,160.52,Target
+94,Environmental Books,Clothing,337.49,Target
+95,Require Books,Home & Kitchen,464.86,Amazon
+96,Large Electronics,Books,312.47,IKEA
+97,Yard Electronics,Electronics,271.13,IKEA
+98,Run Home & Kitchen,Clothing,466.96,Amazon
+99,Character Clothing,Home & Kitchen,146.07,Walmart
+100,North Toys,Sports,353.25,IKEA
+101,Democrat Toys,Beauty,266.83,Nike
+102,Avoid Toys,Sports,153.19,Nike
+103,Professional Electronics,Clothing,135.91,Amazon
+104,Significant Beauty,Sports,81.95,Target
+105,Exist Sports,Clothing,360.22,BestBuy
+106,Property Beauty,Beauty,427.19,IKEA
+107,Same Books,Home & Kitchen,453.14,Adidas
+108,Race Electronics,Electronics,318.97,Adidas
+109,Data Home & Kitchen,Electronics,6.76,Adidas
+110,Send Clothing,Beauty,490.0,BestBuy
+111,Hotel Beauty,Books,278.08,Walmart
+112,Organization Sports,Electronics,60.38,Nike
+113,Really Clothing,Sports,22.83,Target
+114,Raise Sports,Sports,78.31,BestBuy
+115,Tend Electronics,Home & Kitchen,185.5,Adidas
+116,Much Toys,Electronics,449.97,BestBuy
+117,Point Beauty,Clothing,335.13,Target
+118,Common Toys,Sports,442.65,Walmart
+119,Kind Sports,Beauty,81.5,BestBuy
+120,Term Toys,Clothing,488.22,Adidas
+121,Class Clothing,Books,17.27,Nike
+122,Four Home & Kitchen,Toys,465.75,Adidas
+123,Store Beauty,Toys,368.85,BestBuy
+124,Leader Home & Kitchen,Clothing,394.75,Amazon
+125,Hundred Books,Toys,24.17,Walmart
+126,Agree Clothing,Clothing,409.21,Walmart
+127,Pm Home & Kitchen,Home & Kitchen,411.17,Adidas
+128,End Clothing,Clothing,16.71,BestBuy
+129,Bank Books,Home & Kitchen,142.91,Amazon
+130,Expect Toys,Home & Kitchen,178.82,IKEA
+131,Capital Books,Beauty,490.67,IKEA
+132,Night Home & Kitchen,Electronics,62.09,Target
+133,Break Clothing,Sports,481.45,Target
+134,Return Electronics,Electronics,300.3,Target
+135,Official Beauty,Toys,160.27,IKEA
+136,Investment Sports,Electronics,195.67,IKEA
+137,Attorney Clothing,Home & Kitchen,26.97,Walmart
+138,Girl Electronics,Sports,463.16,IKEA
+139,Push Beauty,Beauty,470.43,Nike
+140,Behind Beauty,Clothing,185.29,Amazon
+141,Him Beauty,Home & Kitchen,313.46,Nike
+142,Where Toys,Electronics,361.28,Target
+143,Goal Sports,Home & Kitchen,335.11,Target
+144,Star Books,Beauty,151.35,BestBuy
+145,Explain Clothing,Books,334.14,Walmart
+146,Child Beauty,Beauty,451.89,IKEA
+147,Trouble Sports,Home & Kitchen,206.01,Adidas
+148,Success Electronics,Home & Kitchen,147.02,Walmart
+149,Draw Toys,Sports,305.3,Target
+150,Eye Books,Books,223.87,BestBuy
+151,Action Sports,Books,397.9,Adidas
+152,Billion Beauty,Clothing,331.13,Target
+153,Huge Sports,Beauty,318.31,Target
+154,Doctor Electronics,Toys,476.24,BestBuy
+155,Human Beauty,Home & Kitchen,116.2,BestBuy
+156,Book Clothing,Electronics,27.88,Walmart
+157,Stay Sports,Toys,385.4,Walmart
+158,Wish Books,Beauty,289.96,Nike
+159,Candidate Beauty,Books,249.72,BestBuy
+160,Continue Clothing,Beauty,345.37,Adidas
+161,New Toys,Toys,443.31,Adidas
+162,Should Books,Clothing,92.06,Nike
+163,Type Sports,Books,29.86,BestBuy
+164,Follow Toys,Electronics,230.95,Adidas
+165,Per Books,Beauty,267.91,IKEA
+166,Term Sports,Home & Kitchen,475.27,Walmart
+167,Surface Sports,Toys,361.04,IKEA
+168,Might Books,Toys,453.89,Walmart
+169,Beyond Clothing,Beauty,431.44,Walmart
+170,Newspaper Home & Kitchen,Toys,127.38,Nike
+171,Happy Home & Kitchen,Toys,389.95,Walmart
+172,School Beauty,Clothing,140.93,Amazon
+173,Owner Beauty,Home & Kitchen,121.07,Target
+174,Tree Home & Kitchen,Sports,44.89,BestBuy
+175,Father Clothing,Books,348.51,Nike
+176,Ok Clothing,Electronics,210.36,Target
+177,Experience Sports,Books,210.81,BestBuy
+178,Political Toys,Books,197.79,Adidas
+179,Bit Sports,Beauty,14.67,Adidas
+180,Watch Sports,Books,241.1,Target
+181,Anything Home & Kitchen,Toys,198.04,Adidas
+182,Conference Books,Sports,375.02,IKEA
+183,Friend Toys,Sports,449.42,Walmart
+184,Your Clothing,Home & Kitchen,220.74,Amazon
+185,Society Books,Home & Kitchen,336.09,Adidas
+186,Improve Books,Beauty,86.7,Walmart
+187,Course Clothing,Sports,269.39,Walmart
+188,Hair Sports,Sports,333.18,Amazon
+189,Sure Beauty,Books,72.17,Walmart
+190,Site Clothing,Electronics,133.78,Target
+191,Resource Clothing,Books,166.79,Adidas
+192,Story Books,Home & Kitchen,377.24,Adidas
+193,Night Books,Home & Kitchen,418.28,Walmart
+194,Ok Electronics,Beauty,272.01,Target
+195,Phone Clothing,Beauty,38.97,Nike
+196,Us Electronics,Toys,20.36,BestBuy
+197,To Clothing,Toys,15.09,BestBuy
+198,Interesting Clothing,Clothing,239.41,Amazon
+199,Me Sports,Clothing,235.19,Target
+200,Person Toys,Home & Kitchen,88.06,IKEA
+201,Care Beauty,Beauty,61.69,Adidas
+202,Event Clothing,Home & Kitchen,58.51,Amazon
+203,Act Home & Kitchen,Sports,340.29,Walmart
+204,Right Books,Beauty,103.17,IKEA
+205,Must Beauty,Toys,315.48,Amazon
+206,Sell Beauty,Toys,154.28,Nike
+207,Clearly Sports,Toys,64.92,IKEA
+208,Really Toys,Electronics,176.87,Walmart
+209,Card Beauty,Home & Kitchen,39.13,Nike
+210,Character Home & Kitchen,Electronics,425.54,Adidas
+211,Human Books,Electronics,219.59,Target
+212,Out Beauty,Toys,232.57,BestBuy
+213,Simply Books,Clothing,368.23,Nike
+214,Example Home & Kitchen,Sports,405.06,IKEA
+215,Argue Toys,Books,235.11,Adidas
+216,Why Beauty,Sports,137.86,Adidas
+217,Share Clothing,Toys,467.64,Target
+218,Purpose Books,Clothing,376.49,IKEA
+219,Hospital Sports,Beauty,192.6,Amazon
+220,Second Books,Toys,165.88,Walmart
+221,Star Clothing,Home & Kitchen,399.93,Target
+222,Enjoy Home & Kitchen,Sports,352.09,Target
+223,Resource Sports,Electronics,260.73,BestBuy
+224,Politics Electronics,Clothing,361.44,Walmart
+225,Kid Sports,Toys,123.96,Walmart
+226,Seat Beauty,Beauty,247.96,Adidas
+227,Lot Electronics,Electronics,150.65,Walmart
+228,Cover Beauty,Clothing,156.57,IKEA
+229,Leg Home & Kitchen,Books,278.97,Target
+230,Health Books,Beauty,277.44,Target
+231,Success Beauty,Books,139.1,Target
+232,Management Clothing,Electronics,362.04,Target
+233,Morning Electronics,Beauty,270.25,Adidas
+234,Few Beauty,Clothing,99.81,Nike
+235,Fact Books,Home & Kitchen,363.67,Adidas
+236,Later Sports,Sports,145.08,Amazon
+237,Near Toys,Clothing,151.64,Target
+238,Year Clothing,Home & Kitchen,12.0,IKEA
+239,Serious Clothing,Home & Kitchen,27.53,Amazon
+240,Upon Sports,Home & Kitchen,350.22,BestBuy
+241,Wind Beauty,Toys,377.63,Amazon
+242,Teach Toys,Electronics,289.16,Walmart
+243,Drop Books,Books,173.65,Amazon
+244,Focus Home & Kitchen,Toys,241.48,Adidas
+245,Prove Electronics,Books,248.41,IKEA
+246,Toward Beauty,Beauty,31.54,BestBuy
+247,Begin Toys,Sports,474.82,Amazon
+248,Yourself Clothing,Electronics,281.25,Walmart
+249,Focus Sports,Sports,396.42,BestBuy
+250,Investment Toys,Sports,193.29,Walmart
+251,Spend Home & Kitchen,Toys,296.32,Walmart
+252,Form Home & Kitchen,Sports,312.41,IKEA
+253,Through Beauty,Electronics,474.06,BestBuy
+254,Believe Beauty,Clothing,136.0,Amazon
+255,Protect Clothing,Clothing,91.04,Amazon
+256,Base Clothing,Electronics,207.22,Nike
+257,Ball Sports,Books,149.17,BestBuy
+258,Show Home & Kitchen,Beauty,144.95,Adidas
+259,Education Books,Electronics,345.26,Target
+260,You Toys,Toys,314.4,Nike
+261,Better Toys,Clothing,215.44,IKEA
+262,Company Clothing,Beauty,78.75,Target
+263,Parent Toys,Clothing,40.35,BestBuy
+264,Art Toys,Home & Kitchen,299.55,Adidas
+265,Become Sports,Home & Kitchen,222.38,Walmart
+266,Six Beauty,Home & Kitchen,351.37,Target
+267,Feeling Sports,Sports,249.43,Amazon
+268,Once Sports,Electronics,445.26,Nike
+269,Woman Home & Kitchen,Sports,128.93,Amazon
+270,Mind Clothing,Beauty,418.8,IKEA
+271,System Sports,Electronics,499.79,Nike
+272,Two Toys,Home & Kitchen,290.24,Adidas
+273,Action Toys,Clothing,237.9,Nike
+274,Language Books,Home & Kitchen,94.84,IKEA
+275,Research Books,Beauty,408.05,Amazon
+276,Movie Books,Home & Kitchen,207.13,Target
+277,Work Beauty,Electronics,429.58,Target
+278,Side Books,Beauty,250.26,Nike
+279,Century Books,Toys,381.45,Amazon
+280,Media Books,Electronics,160.69,Target
+281,Modern Electronics,Toys,205.07,IKEA
+282,Myself Toys,Electronics,330.54,IKEA
+283,Reveal Books,Books,31.83,IKEA
+284,Research Home & Kitchen,Sports,379.44,Nike
+285,View Books,Toys,30.55,Target
+286,No Sports,Clothing,464.2,Walmart
+287,Save Beauty,Books,65.11,Nike
+288,Capital Sports,Toys,123.45,BestBuy
+289,Into Home & Kitchen,Sports,11.77,Walmart
+290,Address Electronics,Clothing,496.17,Amazon
+291,Practice Books,Electronics,325.62,BestBuy
+292,Customer Books,Beauty,149.47,Nike
+293,Whether Home & Kitchen,Books,418.19,Walmart
+294,Theory Clothing,Books,277.88,Walmart
+295,Skill Clothing,Sports,256.58,BestBuy
+296,Account Toys,Electronics,141.74,Adidas
+297,Send Toys,Books,173.24,Adidas
+298,Large Sports,Home & Kitchen,411.17,Target
+299,Scientist Beauty,Home & Kitchen,419.55,IKEA
+300,Nor Beauty,Books,433.3,Walmart
+301,So Sports,Books,175.84,IKEA
+302,Hair Toys,Sports,191.72,Target
+303,Election Toys,Clothing,490.48,BestBuy
+304,Single Sports,Books,120.61,Adidas
+305,Recently Books,Electronics,162.5,Walmart
+306,Wife Beauty,Toys,193.71,Nike
+307,Than Toys,Toys,327.75,BestBuy
+308,Up Books,Electronics,67.49,IKEA
+309,You Home & Kitchen,Toys,54.68,Adidas
+310,News Books,Electronics,265.35,Walmart
+311,Return Electronics,Beauty,76.36,Adidas
+312,Politics Beauty,Clothing,42.04,Adidas
+313,And Home & Kitchen,Home & Kitchen,313.51,Walmart
+314,Policy Beauty,Electronics,426.62,Adidas
+315,List Beauty,Toys,269.14,Target
+316,Concern Beauty,Beauty,444.28,Walmart
+317,Represent Toys,Sports,22.77,Amazon
+318,Wonder Clothing,Beauty,343.78,Target
+319,Us Clothing,Beauty,49.74,Amazon
+320,South Toys,Beauty,353.43,Amazon
+321,Need Books,Clothing,348.53,Amazon
+322,Well Electronics,Home & Kitchen,399.09,Target
+323,Down Home & Kitchen,Home & Kitchen,218.19,BestBuy
+324,Continue Sports,Books,285.13,Adidas
+325,Bad Clothing,Clothing,91.66,IKEA
+326,Hit Toys,Books,311.76,BestBuy
+327,Those Books,Sports,75.84,Walmart
+328,Cell Beauty,Home & Kitchen,232.49,Nike
+329,My Electronics,Toys,235.3,Target
+330,Head Beauty,Sports,83.2,Walmart
+331,Approach Home & Kitchen,Sports,153.08,Walmart
+332,Knowledge Beauty,Home & Kitchen,231.13,Target
+333,Mission Clothing,Books,427.4,Amazon
+334,Hundred Clothing,Books,288.1,IKEA
+335,Conference Home & Kitchen,Beauty,151.14,Adidas
+336,Hour Beauty,Books,140.87,IKEA
+337,Budget Toys,Beauty,390.26,Amazon
+338,Ground Sports,Beauty,250.88,Target
+339,White Toys,Toys,118.91,Adidas
+340,Respond Home & Kitchen,Clothing,320.13,IKEA
+341,Enjoy Home & Kitchen,Beauty,379.01,Adidas
+342,Theory Beauty,Beauty,419.98,Nike
+343,Notice Electronics,Beauty,324.94,Target
+344,Today Toys,Books,21.52,Target
+345,Space Beauty,Clothing,49.62,Target
+346,Toward Home & Kitchen,Beauty,210.67,BestBuy
+347,Buy Clothing,Toys,272.01,Target
+348,Fill Sports,Sports,457.18,Adidas
+349,Firm Clothing,Home & Kitchen,457.45,Walmart
+350,Meeting Toys,Home & Kitchen,374.55,Target
+351,Finally Toys,Electronics,236.82,Amazon
+352,Evidence Clothing,Toys,483.42,Adidas
+353,Different Beauty,Beauty,338.83,Walmart
+354,Able Toys,Toys,280.87,Amazon
+355,Sing Toys,Books,11.89,IKEA
+356,Program Electronics,Books,187.45,Nike
+357,Outside Beauty,Home & Kitchen,294.36,Adidas
+358,Indeed Beauty,Home & Kitchen,58.63,BestBuy
+359,Director Books,Electronics,311.68,IKEA
+360,Wind Home & Kitchen,Sports,114.58,Amazon
+361,Focus Beauty,Toys,234.81,Nike
+362,Woman Home & Kitchen,Beauty,207.11,BestBuy
+363,Worker Electronics,Electronics,155.66,Walmart
+364,Question Electronics,Electronics,121.23,IKEA
+365,Myself Clothing,Books,229.55,Nike
+366,That Beauty,Beauty,473.26,Walmart
+367,Walk Sports,Beauty,364.67,Walmart
+368,Also Beauty,Electronics,417.68,IKEA
+369,Worry Books,Home & Kitchen,21.19,Target
+370,Major Clothing,Books,225.12,BestBuy
+371,Wait Toys,Home & Kitchen,54.18,Nike
+372,Prepare Home & Kitchen,Sports,451.34,Nike
+373,Thus Home & Kitchen,Electronics,202.08,BestBuy
+374,Method Electronics,Toys,412.97,Amazon
+375,Art Beauty,Clothing,322.64,IKEA
+376,Heart Electronics,Electronics,394.46,BestBuy
+377,According Clothing,Toys,284.47,Amazon
+378,Power Toys,Toys,279.33,IKEA
+379,Magazine Clothing,Toys,435.5,Target
+380,Get Toys,Clothing,395.38,IKEA
+381,Fire Electronics,Home & Kitchen,429.91,BestBuy
+382,Health Clothing,Sports,129.07,BestBuy
+383,Both Electronics,Beauty,433.89,BestBuy
+384,Accept Electronics,Home & Kitchen,396.04,BestBuy
+385,Hard Sports,Home & Kitchen,12.81,Target
+386,Voice Electronics,Clothing,372.15,IKEA
+387,Seven Electronics,Beauty,36.46,Walmart
+388,Cultural Toys,Home & Kitchen,259.05,Amazon
+389,Interest Books,Sports,114.67,IKEA
+390,Hear Electronics,Beauty,392.7,Adidas
+391,Act Beauty,Sports,154.31,Nike
+392,Blood Electronics,Electronics,499.3,Adidas
+393,Lawyer Books,Books,344.62,Walmart
+394,Million Beauty,Books,41.38,Amazon
+395,Decade Home & Kitchen,Sports,78.43,BestBuy
+396,Become Home & Kitchen,Sports,318.37,IKEA
+397,Newspaper Beauty,Home & Kitchen,193.55,IKEA
+398,My Sports,Home & Kitchen,229.59,IKEA
+399,Way Books,Electronics,397.58,Amazon
+400,Class Toys,Beauty,327.2,Adidas
+401,Item Sports,Beauty,433.42,Walmart
+402,Candidate Books,Clothing,209.84,Adidas
+403,White Books,Books,210.91,Amazon
+404,Method Home & Kitchen,Books,159.7,Target
+405,Account Home & Kitchen,Clothing,344.98,Walmart
+406,Clearly Electronics,Electronics,416.73,Amazon
+407,Specific Books,Electronics,373.57,Target
+408,Realize Toys,Clothing,280.4,IKEA
+409,Enough Sports,Sports,168.17,Amazon
+410,Draw Books,Home & Kitchen,437.44,Adidas
+411,Many Books,Toys,458.34,Amazon
+412,Indicate Home & Kitchen,Sports,159.66,Amazon
+413,House Sports,Sports,110.31,Nike
+414,Firm Books,Clothing,424.4,Target
+415,His Toys,Sports,186.94,Adidas
+416,Later Home & Kitchen,Sports,116.95,Walmart
+417,Wait Toys,Sports,487.4,Adidas
+418,Court Sports,Sports,339.11,IKEA
+419,Not Electronics,Sports,464.9,Adidas
+420,Task Beauty,Home & Kitchen,19.33,Target
+421,Exist Beauty,Toys,157.95,Target
+422,Boy Home & Kitchen,Electronics,94.8,BestBuy
+423,Leg Sports,Beauty,203.39,BestBuy
+424,Realize Beauty,Beauty,486.05,Amazon
+425,Those Beauty,Sports,111.49,Walmart
+426,Leg Books,Home & Kitchen,82.92,Target
+427,Color Beauty,Home & Kitchen,389.53,IKEA
+428,Challenge Sports,Electronics,442.25,BestBuy
+429,Health Clothing,Toys,310.83,Nike
+430,Small Electronics,Home & Kitchen,224.34,Walmart
+431,Leader Books,Sports,223.81,Target
+432,Accept Clothing,Toys,258.61,Target
+433,Her Books,Electronics,145.21,Nike
+434,Use Sports,Books,265.83,Target
+435,Truth Electronics,Clothing,200.66,IKEA
+436,Security Electronics,Electronics,106.19,BestBuy
+437,Decide Toys,Clothing,383.26,Target
+438,Bring Home & Kitchen,Electronics,8.83,Nike
+439,Customer Books,Clothing,68.95,IKEA
+440,Feel Beauty,Clothing,252.63,Adidas
+441,Amount Beauty,Toys,180.31,Walmart
+442,Cell Toys,Beauty,25.94,Amazon
+443,Indicate Books,Electronics,431.74,IKEA
+444,Know Books,Sports,205.19,Nike
+445,Six Books,Home & Kitchen,62.01,Amazon
+446,Glass Home & Kitchen,Clothing,401.65,IKEA
+447,Wear Books,Toys,346.36,Target
+448,Almost Electronics,Books,423.02,BestBuy
+449,College Books,Sports,203.22,Amazon
+450,Reflect Books,Toys,158.59,Target
+451,Decide Clothing,Home & Kitchen,390.66,Amazon
+452,Measure Sports,Beauty,61.44,IKEA
+453,Reduce Clothing,Toys,177.94,Nike
+454,Exactly Toys,Beauty,408.44,BestBuy
+455,By Electronics,Clothing,131.7,BestBuy
+456,Know Sports,Clothing,381.31,Nike
+457,Middle Electronics,Clothing,475.89,Nike
+458,Oil Books,Books,378.45,Adidas
+459,Mission Sports,Books,342.16,IKEA
+460,Such Beauty,Beauty,493.33,Target
+461,Rest Toys,Beauty,161.49,Walmart
+462,Send Electronics,Books,223.89,Target
+463,Care Toys,Home & Kitchen,297.75,Target
+464,Garden Sports,Electronics,158.65,Walmart
+465,Society Electronics,Electronics,187.53,Target
+466,South Electronics,Beauty,432.8,Adidas
+467,Statement Electronics,Sports,299.07,Walmart
+468,Upon Books,Sports,279.39,Adidas
+469,Instead Beauty,Electronics,227.62,Adidas
+470,More Sports,Beauty,98.18,IKEA
+471,She Books,Sports,79.68,Amazon
+472,Wind Books,Electronics,406.43,Adidas
+473,Site Home & Kitchen,Beauty,46.74,Nike
+474,Threat Clothing,Electronics,127.63,Walmart
+475,That Books,Sports,263.76,BestBuy
+476,Improve Home & Kitchen,Home & Kitchen,459.38,Walmart
+477,Catch Books,Toys,172.49,IKEA
+478,Break Electronics,Toys,317.29,Target
+479,Box Electronics,Home & Kitchen,51.78,Nike
+480,Structure Books,Home & Kitchen,129.74,Adidas
+481,Against Beauty,Sports,437.27,Target
+482,Card Electronics,Sports,333.49,Target
+483,Clearly Home & Kitchen,Beauty,350.75,Walmart
+484,Guy Clothing,Sports,355.87,Amazon
+485,Month Home & Kitchen,Sports,191.46,Adidas
+486,Add Home & Kitchen,Toys,68.26,Nike
+487,Speak Toys,Beauty,498.6,IKEA
+488,Return Electronics,Beauty,336.88,IKEA
+489,Economic Home & Kitchen,Electronics,184.49,BestBuy
+490,Area Clothing,Home & Kitchen,474.1,Walmart
+491,Resource Clothing,Clothing,499.99,BestBuy
+492,Themselves Electronics,Home & Kitchen,422.99,Amazon
+493,Guess Sports,Toys,272.19,Nike
+494,Laugh Sports,Electronics,332.65,Adidas
+495,Picture Sports,Clothing,300.64,BestBuy
+496,Sing Clothing,Clothing,416.52,Adidas
+497,Across Sports,Toys,451.81,Nike
+498,Leader Books,Electronics,208.38,Nike
+499,Media Beauty,Clothing,484.95,IKEA
+500,Figure Home & Kitchen,Toys,375.53,Walmart

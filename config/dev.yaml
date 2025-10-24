@@ -1,0 +1,11 @@
+database:
+  user: "postgres"
+  password: "postgres"
+  host: "localhost"
+  port: 5432
+  name: "shopflow_db"
+
+aws:
+  region: "eu-central-1"
+  bucket: "shopflow-bucket-ctw04657"
+  profile: "bmwsso"
