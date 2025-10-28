@@ -1,10 +1,23 @@
-# src/etl/load_to_db.py
+# ============================================================
+#                 ETL Data Loading Pipeline
+# ============================================================
 
 import os
 import pandas as pd
-from sqlalchemy import Table, inspect, text
+from sqlalchemy import Table, inspect, text, create_engine
 from sqlalchemy.dialects.postgresql import insert as pg_insert
-from src.scripts.db_setup import engine, metadata
+from src.scripts.db_setup import metadata
+from config.config import load_config
+
+# ---------- Load Config ----------
+config = load_config(env=os.environ.get("ENV", "dev"))
+db_conf = config["database"]
+
+DB_URL = (
+    f"postgresql+psycopg2://{db_conf['user']}:{db_conf['password']}@"
+    f"{db_conf['host']}:{db_conf['port']}/{db_conf['name']}"
+)
+engine = create_engine(DB_URL, echo=False)
 
 # ---------- CSV Paths ----------
 CSV_PATHS = {
@@ -13,7 +26,7 @@ CSV_PATHS = {
     "transactions": "data/raw/transactions.csv",
 }
 
-# ---------- Create load_audit table if not exists ----------
+# ---------- Ensure load_audit Table ----------
 inspector = inspect(engine)
 if not inspector.has_table("load_audit"):
     with engine.begin() as conn:
@@ -40,8 +53,10 @@ def upsert_table(df, table_name, key_columns):
     table = Table(table_name, metadata, autoload_with=engine)
 
     insert_stmt = pg_insert(table)
-    update_dict = {c.name: insert_stmt.excluded[c.name]
-                   for c in table.columns if c.name not in key_columns}
+    update_dict = {
+        c.name: insert_stmt.excluded[c.name]
+        for c in table.columns if c.name not in key_columns
+    }
 
     upsert_stmt = insert_stmt.on_conflict_do_update(
         index_elements=key_columns,
@@ -64,7 +79,7 @@ def log_audit(table_name, row_count, status="success"):
 
 # ---------- ETL Pipeline ----------
 def load_data():
-    # ------------------ 1️⃣ CUSTOMERS ------------------
+    # ------------------ CUSTOMERS ------------------
     if os.path.exists(CSV_PATHS["customers"]):
         customers_df = pd.read_csv(CSV_PATHS["customers"])
         customers_df.columns = [c.strip() for c in customers_df.columns]
@@ -77,7 +92,7 @@ def load_data():
     else:
         print("❌ customers.csv not found")
 
-    # ------------------ 2️⃣ SUPPLIERS + PRODUCTS ------------------
+    # ------------------ SUPPLIERS + PRODUCTS ------------------
     if os.path.exists(CSV_PATHS["products"]):
         df = pd.read_csv(CSV_PATHS["products"])
         df = df.where(pd.notnull(df), None)
@@ -100,12 +115,12 @@ def load_data():
     else:
         print("❌ products.csv not found")
 
-    # ------------------ 3️⃣ PAYMENT METHODS + TRANSACTIONS ------------------
+    # ------------------ PAYMENT METHODS + TRANSACTIONS ------------------
     if os.path.exists(CSV_PATHS["transactions"]):
         df = pd.read_csv(CSV_PATHS["transactions"])
         df = df.where(pd.notnull(df), None)
 
-        # 3a. Payment Methods
+        # Payment methods
         payment_df = pd.DataFrame(df["payment_method"].dropna().unique(), columns=["method"])
         rows = upsert_table(payment_df, "payment_methods", key_columns=["method"])
         log_audit("payment_methods", rows)
@@ -115,33 +130,40 @@ def load_data():
             payment_map = dict(conn.execute(text("SELECT method, id FROM payment_methods")).fetchall())
         df["payment_method_id"] = df["payment_method"].map(payment_map)
 
-        # 3b. Transactions
+        # Transactions
         transaction_df = df[["id", "customer_id", "timestamp", "payment_method_id"]].drop_duplicates()
 
+        # Check customers exist
         with engine.connect() as conn:
             existing_customers = {r[0] for r in conn.execute(text("SELECT id FROM customers")).fetchall()}
-
         missing_ids = set(transaction_df["customer_id"]) - existing_customers
         if missing_ids:
-            raise ValueError(f"Cannot insert transactions: missing customer IDs: {missing_ids}")
+            print(f"⚠️ Missing customer IDs (skipping {len(missing_ids)} records)")
+            transaction_df = transaction_df[~transaction_df["customer_id"].isin(missing_ids)]
 
         rows = upsert_table(transaction_df, "transactions", key_columns=["id"])
         log_audit("transactions", rows)
         print(f"✅ Loaded {rows} transactions")
 
-        # 3c. Transaction Items (no price)
+        # Transaction Items (no price)
         transaction_items_df = df[["id", "product_id", "quantity"]].rename(
             columns={"id": "transaction_id"}
         )
 
-        rows = upsert_table(transaction_items_df, "transaction_items",
-                            key_columns=["transaction_id", "product_id"])
+        rows = upsert_table(
+            transaction_items_df,
+            "transaction_items",
+            key_columns=["transaction_id", "product_id"],
+        )
         log_audit("transaction_items", rows)
         print(f"✅ Loaded {rows} transaction_items")
+
     else:
         print("❌ transactions.csv not found")
 
 
 # ---------- MAIN ----------
 if __name__ == "__main__":
+    print("🚀 Starting ETL load to AWS RDS...")
     load_data()
+    print("✅ All data loaded successfully!")

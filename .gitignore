@@ -1,0 +1,5 @@
+.env
+*.yaml
+!dev.template.yaml
+__pycache__/
+reset_db.py
